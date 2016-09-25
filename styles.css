@@ -1,0 +1,15 @@
+#result {
+  min-height: 100px;
+  width: 200px;
+  border: solid 1px black;
+  padding: 10px;
+  list-style: none;
+}
+
+.remove {
+  float: right;
+}
+
+.strike {
+  text-decoration: line-through;
+}
