@@ -22,12 +22,12 @@ $(document).ready(function() {
   });
 
   // Remove item from list
-  $(document).on('click', '.remove', function(e) {
+  $(document).on('click', '.remove', function() {
     $(this).parent().remove();
   });
 
   // Mark item as complete by adding line-through
-  $(document).on('click', '.done', function(e) {
+  $(document).on('click', '.done', function() {
     $(this).parent().addClass('strike');
   });
 
